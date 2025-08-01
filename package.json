@@ -1,0 +1,24 @@
+{
+  "name": "framework-poc",
+  "private": true,
+  "workspaces": [
+    "modules/core",
+    "modules/sql"
+  ],
+  "dependencies": {
+    "@mikro-orm/core": "^6.4.16",
+    "@mikro-orm/sqlite": "^6.4.16",
+    "axios": "^1.11.0",
+    "class-validator": "^0.14.2",
+    "path-browserify": "^1.0.1",
+    "typeorm": "^0.3.25"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.1.0",
+    "@types/path-browserify": "^1.0.3",
+    "jest": "^30.0.5",
+    "ts-jest": "^29.4.0"
+  }
+}
